@@ -16,12 +16,12 @@ export default function Home() {
                 FunSCADA 提供工业级监控和数据采集解决方案，让您的自动化系统更加智能高效
               </p>
               <div className="flex flex-wrap gap-4">
-                <Link href="/demo" 
-                  className="bg-white text-primary px-6 py-3 rounded-md font-medium hover:bg-gray-100 transition">
+                <Link href="http://47.116.126.84" target="_blank"
+                  className="bg-blue-500 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-600 transition">
                   在线演示
                 </Link>
                 <Link href="/contact" 
-                  className="bg-transparent border-2 border-white px-6 py-3 rounded-md font-medium hover:bg-white hover:bg-opacity-10 transition">
+                  className="bg-transparent border-2 border-white px-6 py-3 rounded-md font-medium hover:bg-opacity-10 transition">
                   联系我们
                 </Link>
               </div>
