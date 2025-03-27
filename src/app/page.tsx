@@ -170,7 +170,7 @@ export default function Home() {
             立即体验 FunSCADA 云组态平台，开启智能工业新篇章
           </p>
           <div className="flex justify-center gap-4 flex-wrap">
-            <Link href="/demo" 
+            <Link href="http://47.116.126.84" target="_blank"
               className="bg-white text-primary px-8 py-3 rounded-md font-medium hover:bg-gray-100 transition">
               免费试用
             </Link>
