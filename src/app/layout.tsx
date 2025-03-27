@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="zh-CN">
       <body className={inter.className}>
-        <header className="bg-primary text-white">
+        <header className="bg-primary">
           <div className="container mx-auto py-4 px-4 flex justify-between items-center">
             <div className="text-2xl font-bold">FunSCADA</div>
             <nav>
@@ -33,7 +33,7 @@ export default function RootLayout({
           </div>
         </header>
         <main>{children}</main>
-        <footer className="bg-gray-800 text-white py-8">
+        <footer className="bg-gray-800 py-8">
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
               <div>

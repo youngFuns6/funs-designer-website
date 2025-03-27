@@ -13,10 +13,10 @@ export default function Navigation() {
   }
 
   return (
-    <header className="bg-primary text-white">
+    <header className="bg-primary text-black">
       <div className="container mx-auto py-4 px-4 flex justify-between items-center">
         <div className="text-2xl font-bold">
-          <Link href="/">FunSCADA</Link>
+          <Link href="/" className="hover:text-gray-200">FunSCADA</Link>
         </div>
         
         {/* Mobile menu button */}
@@ -55,7 +55,7 @@ export default function Navigation() {
             <li>
               <Link 
                 href="/" 
-                className={`hover:text-gray-200 ${isActive('/') ? 'font-semibold border-b-2 border-white pb-1' : ''}`}
+                className={`hover:text-gray-200 transition-colors ${isActive('/') ? 'font-bold border-b-2 border-white pb-1' : ''}`}
               >
                 首页
               </Link>
@@ -63,7 +63,7 @@ export default function Navigation() {
             <li>
               <Link 
                 href="/features" 
-                className={`hover:text-gray-200 ${isActive('/features') ? 'font-semibold border-b-2 border-white pb-1' : ''}`}
+                className={`hover:text-gray-200 transition-colors ${isActive('/features') ? 'font-bold border-b-2 border-white pb-1' : ''}`}
               >
                 功能
               </Link>
@@ -71,7 +71,7 @@ export default function Navigation() {
             <li>
               <Link 
                 href="/solutions" 
-                className={`hover:text-gray-200 ${isActive('/solutions') ? 'font-semibold border-b-2 border-white pb-1' : ''}`}
+                className={`hover:text-gray-200 transition-colors ${isActive('/solutions') ? 'font-bold border-b-2 border-white pb-1' : ''}`}
               >
                 解决方案
               </Link>
@@ -79,7 +79,7 @@ export default function Navigation() {
             <li>
               <Link 
                 href="/about" 
-                className={`hover:text-gray-200 ${isActive('/about') ? 'font-semibold border-b-2 border-white pb-1' : ''}`}
+                className={`hover:text-gray-200 transition-colors ${isActive('/about') ? 'font-bold border-b-2 border-white pb-1' : ''}`}
               >
                 关于我们
               </Link>
@@ -87,7 +87,7 @@ export default function Navigation() {
             <li>
               <Link 
                 href="/contact" 
-                className={`hover:text-gray-200 ${isActive('/contact') ? 'font-semibold border-b-2 border-white pb-1' : ''}`}
+                className={`hover:text-gray-200 transition-colors ${isActive('/contact') ? 'font-bold border-b-2 border-white pb-1' : ''}`}
               >
                 联系我们
               </Link>
@@ -103,7 +103,7 @@ export default function Navigation() {
             <li>
               <Link 
                 href="/" 
-                className={`block py-2 ${isActive('/') ? 'font-semibold' : ''}`}
+                className={`block py-2 ${isActive('/') ? 'font-bold' : ''}`}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 首页
@@ -112,7 +112,7 @@ export default function Navigation() {
             <li>
               <Link 
                 href="/features" 
-                className={`block py-2 ${isActive('/features') ? 'font-semibold' : ''}`}
+                className={`block py-2 ${isActive('/features') ? 'font-bold' : ''}`}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 功能
@@ -121,7 +121,7 @@ export default function Navigation() {
             <li>
               <Link 
                 href="/solutions" 
-                className={`block py-2 ${isActive('/solutions') ? 'font-semibold' : ''}`}
+                className={`block py-2 ${isActive('/solutions') ? 'font-bold' : ''}`}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 解决方案
@@ -130,7 +130,7 @@ export default function Navigation() {
             <li>
               <Link 
                 href="/about" 
-                className={`block py-2 ${isActive('/about') ? 'font-semibold' : ''}`}
+                className={`block py-2 ${isActive('/about') ? 'font-bold' : ''}`}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 关于我们
@@ -139,7 +139,7 @@ export default function Navigation() {
             <li>
               <Link 
                 href="/contact" 
-                className={`block py-2 ${isActive('/contact') ? 'font-semibold' : ''}`}
+                className={`block py-2 ${isActive('/contact') ? 'font-bold' : ''}`}
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 联系我们
