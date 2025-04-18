@@ -118,10 +118,10 @@ export default function ContactPage() {
                     电子邮件
                   </h3>
                   <p className="mt-2 text-gray-600">
-                    <a href="mailto:contact@funscada.com" className="hover:text-primary">contact@funscada.com</a>
+                    <a href="mailto:contact@funscada.com" className="hover:text-primary">384597439@qq.com</a>
                   </p>
                 </div>
-                <div>
+                {/* <div>
                   <h3 className="text-lg font-semibold flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-primary mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -131,7 +131,7 @@ export default function ContactPage() {
                   <p className="mt-2 text-gray-600">
                     <a href="tel:+86-400-123-4567" className="hover:text-primary">400-123-4567</a>
                   </p>
-                </div>
+                </div> */}
                 <div>
                   <h3 className="text-lg font-semibold flex items-center">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-primary mr-2 mt-0.5" fill="none" viewBox="0 0 24 24" stroke="currentColor">

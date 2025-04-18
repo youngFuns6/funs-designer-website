@@ -236,7 +236,7 @@ export default function FeaturesPage() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-primary text-white">
+      <section className="py-16 bg-primary">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">探索 FunSCADA 的更多功能</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">

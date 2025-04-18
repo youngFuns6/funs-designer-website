@@ -2,6 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 export default function Home() {
+  const scandaUrl = "https://scanda.funsface.com"
   return (
     <div>
       {/* Hero Section */}
@@ -16,7 +17,7 @@ export default function Home() {
                 FunSCADA 提供工业级监控和数据采集解决方案，让您的自动化系统更加智能高效
               </p>
               <div className="flex flex-wrap gap-4">
-                <Link href="http://47.116.126.84" target="_blank"
+                <Link href={scandaUrl} target="_blank"
                   className="bg-blue-500 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-600 transition">
                   在线演示
                 </Link>
@@ -30,7 +31,9 @@ export default function Home() {
               <div className="relative h-80 w-full">
                 <div className="absolute inset-0 bg-white bg-opacity-10 rounded-lg shadow-2xl overflow-hidden">
                   {/* 由于没有真实图片，这里用一个占位颜色块 */}
-                  <div className="h-full w-full bg-gradient-to-br from-blue-400 to-blue-600 opacity-70"></div>
+                  <div className="h-full w-full bg-gradient-to-br from-blue-400 to-blue-600 opacity-70">
+                    <img src="" alt="" />
+                  </div>
                 </div>
               </div>
             </div>
@@ -163,14 +166,14 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-16 bg-primary text-white">
+      <section className="py-16 bg-primary">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-6">准备提升您的工业自动化水平？</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             立即体验 FunSCADA 云组态平台，开启智能工业新篇章
           </p>
           <div className="flex justify-center gap-4 flex-wrap">
-            <Link href="http://47.116.126.84" target="_blank"
+            <Link href={scandaUrl} target="_blank"
               className="bg-white text-primary px-8 py-3 rounded-md font-medium hover:bg-gray-100 transition">
               免费试用
             </Link>

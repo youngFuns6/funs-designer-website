@@ -16,7 +16,7 @@ export default function Navigation() {
     <header className="bg-primary text-black">
       <div className="container mx-auto py-4 px-4 flex justify-between items-center">
         <div className="text-2xl font-bold">
-          <Link href="/" className="hover:text-gray-200">FunSCADA</Link>
+          <Link href="/" className="hover:text-gray-700">FunSCADA</Link>
         </div>
         
         {/* Mobile menu button */}
@@ -55,7 +55,7 @@ export default function Navigation() {
             <li>
               <Link 
                 href="/" 
-                className={`hover:text-gray-200 transition-colors ${isActive('/') ? 'font-bold border-b-2 border-white pb-1' : ''}`}
+                className={`hover:text-gray-700 transition-colors ${isActive('/') ? 'font-bold border-b-2 border-white pb-1' : ''}`}
               >
                 首页
               </Link>
@@ -63,7 +63,7 @@ export default function Navigation() {
             <li>
               <Link 
                 href="/features" 
-                className={`hover:text-gray-200 transition-colors ${isActive('/features') ? 'font-bold border-b-2 border-white pb-1' : ''}`}
+                className={`hover:text-gray-700 transition-colors ${isActive('/features') ? 'font-bold border-b-2 border-white pb-1' : ''}`}
               >
                 功能
               </Link>
@@ -71,7 +71,7 @@ export default function Navigation() {
             <li>
               <Link 
                 href="/solutions" 
-                className={`hover:text-gray-200 transition-colors ${isActive('/solutions') ? 'font-bold border-b-2 border-white pb-1' : ''}`}
+                className={`hover:text-gray-700 transition-colors ${isActive('/solutions') ? 'font-bold border-b-2 border-white pb-1' : ''}`}
               >
                 解决方案
               </Link>
@@ -79,7 +79,7 @@ export default function Navigation() {
             <li>
               <Link 
                 href="/about" 
-                className={`hover:text-gray-200 transition-colors ${isActive('/about') ? 'font-bold border-b-2 border-white pb-1' : ''}`}
+                className={`hover:text-gray-700 transition-colors ${isActive('/about') ? 'font-bold border-b-2 border-white pb-1' : ''}`}
               >
                 关于我们
               </Link>
@@ -87,7 +87,7 @@ export default function Navigation() {
             <li>
               <Link 
                 href="/contact" 
-                className={`hover:text-gray-200 transition-colors ${isActive('/contact') ? 'font-bold border-b-2 border-white pb-1' : ''}`}
+                className={`hover:text-gray-700 transition-colors ${isActive('/contact') ? 'font-bold border-b-2 border-white pb-1' : ''}`}
               >
                 联系我们
               </Link>
@@ -150,4 +150,4 @@ export default function Navigation() {
       )}
     </header>
   )
-} 
+}
