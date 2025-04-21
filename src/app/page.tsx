@@ -31,8 +31,8 @@ export default function Home() {
               <div className="relative h-80 w-full">
                 <div className="absolute inset-0 bg-white bg-opacity-10 rounded-lg shadow-2xl overflow-hidden">
                   {/* 由于没有真实图片，这里用一个占位颜色块 */}
-                  <div className="h-full w-full bg-gradient-to-br from-blue-400 to-blue-600 opacity-70">
-                    <img src="" alt="" />
+                  <div className="h-full w-full">
+                    <img style={{width: "100%", height: "100%"}} src="/images/离心泵.png" alt="" />
                   </div>
                 </div>
               </div>
