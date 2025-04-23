@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 export default function Home() {
-  const scandaUrl = "https://scanda.funsface.com"
+  const scadaUrl = "https://scada.funsface.com"
   return (
     <div>
       {/* Hero Section */}
@@ -17,7 +17,7 @@ export default function Home() {
                 FunSCADA 提供工业级监控和数据采集解决方案，让您的自动化系统更加智能高效
               </p>
               <div className="flex flex-wrap gap-4">
-                <Link href={scandaUrl} target="_blank"
+                <Link href={scadaUrl} target="_blank"
                   className="bg-blue-500 text-white px-6 py-3 rounded-md font-medium hover:bg-blue-600 transition">
                   在线演示
                 </Link>
@@ -173,7 +173,7 @@ export default function Home() {
             立即体验 FunSCADA 云组态平台，开启智能工业新篇章
           </p>
           <div className="flex justify-center gap-4 flex-wrap">
-            <Link href={scandaUrl} target="_blank"
+            <Link href={scadaUrl} target="_blank"
               className="bg-white text-primary px-8 py-3 rounded-md font-medium hover:bg-gray-100 transition">
               免费试用
             </Link>
